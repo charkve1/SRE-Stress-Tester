@@ -623,7 +623,7 @@ This tool provides:
 **Dependencies**: Streamlit, aiohttp, Plotly, Pandas  
 **License**: For authorized testing and academic research
 
-# proxy checker
+# 📁 Proxy Checker
 
 A fast, asynchronous Python script that scrapes proxies from multiple public sources, validates their functionality and speed, and saves only the elite/fast working proxies.
 
