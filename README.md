@@ -5,7 +5,7 @@
 ![aiohttp](https://img.shields.io/badge/aiohttp-3.9.0-green?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-Educational-yellow?style=for-the-badge)
 
-### 🚀 High-Performance Infrastructure Resilience Testing Framework
+###  High-Performance Infrastructure Resilience Testing Framework
 
 This repository contains a professional-grade **System Reliability Engineering (SRE)** tool engineered to discover the **"Safe Operating Envelope"** of web services and backend infrastructure. By leveraging high-density, heterogeneous traffic simulation, it empowers engineers to map exact degradation points and test the true limits of connection pooling, load balancers, and auto-scaling logic.
 
