@@ -248,7 +248,7 @@ Compare test runs with and without cache busting to understand:
 
 ---
 
-## 📊 Testing Methodology
+## Testing Methodology
 
 ### Phase 1: Baseline Assessment
 
@@ -338,7 +338,7 @@ Test B (Without Cache):
 
 ---
 
-## 🎓 Key Metrics Explained
+## Key Metrics Explained
 
 ### Latency Percentiles
 
@@ -391,7 +391,7 @@ RPS = Total Requests / Test Duration
 
 ---
 
-## 🔍 Interpreting Results
+## Interpreting Results
 
 ### Healthy System Indicators
 
@@ -471,7 +471,7 @@ Export results to CSV/JSON for:
 
 ---
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 ### Connection Refused
 
@@ -507,7 +507,7 @@ Export results to CSV/JSON for:
 
 ---
 
-## 📚 Academic Use Cases
+## Academic Use Cases
 
 ### 1. Load Balancer Effectiveness
 
@@ -551,7 +551,7 @@ Analysis: Pool size optimization
 
 ---
 
-## ⚠️ Responsible Use Guidelines
+## Responsible Use Guidelines
 
 ### DO:
 ✅ Test only infrastructure you own or have written authorization  
