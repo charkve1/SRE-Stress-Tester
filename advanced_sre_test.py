@@ -14,7 +14,7 @@ Capabilities:
 - HTTP/2 multiplexing efficiency profiler
 - Real-time Streamlit observability dashboard
 
-Author: SRE Team
+Author: Charkve1
 Version: 5.0 (Professional)
 License: For authorized infrastructure testing only
 """
