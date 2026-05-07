@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.env
+verified_proxies.txt
+*_detailed.json

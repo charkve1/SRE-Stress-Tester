@@ -1,0 +1,17 @@
+# Example proxies.txt file
+# Format: ip:port or user:pass@ip:port
+# One proxy per line
+# Lines starting with # are comments
+
+# Simple IP:Port format
+192.168.1.100:8080
+10.0.0.50:3128
+203.0.113.10:8888
+
+# Authentication format (user:pass@ip:port)
+proxyuser1:pass123@198.51.100.20:8080
+admin:secret@192.0.2.100:3128
+
+# Full URL format (optional)
+http://198.51.100.30:8080
+https://user:pass@203.0.113.50:3128

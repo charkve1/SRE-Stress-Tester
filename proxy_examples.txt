@@ -1,0 +1,62 @@
+# Professional SRE Proxy Configuration Examples
+# Format: One proxy per line, comments start with #
+
+# ============================================================================
+# HTTP/HTTPS Proxies
+# ============================================================================
+
+# Simple IP:Port format
+192.168.1.100:8080
+10.0.0.50:3128
+203.0.113.10:8888
+
+# With authentication (user:pass@ip:port)
+proxy_user1:secure_pass123@198.51.100.20:8080
+admin:password456@192.0.2.100:3128
+
+# ============================================================================
+# SOCKS5 Proxies
+# ============================================================================
+
+# SOCKS5 without authentication
+socks5://198.51.100.30:1080
+socks5://203.0.113.50:1080
+
+# SOCKS5 with authentication
+socks5://user1:pass123@192.168.1.200:1080
+socks5://admin:secret@10.0.0.100:1080
+
+# ============================================================================
+# Residential Proxy Examples (Premium Services)
+# ============================================================================
+
+# Bright Data format
+socks5://brd-customer-zone1:password1@brd.superproxy.io:22225
+
+# Oxylabs format
+socks5://username1:pass123@pr.oxylabs.io:7777
+
+# Smartproxy format
+socks5://user1-pass1:country-us-session-random@geo.smartproxy.com:10001
+
+# ============================================================================
+# Datacenter Proxy Examples
+# ============================================================================
+
+# DigitalOcean proxies
+45.55.100.200:8080
+104.131.50.100:3128
+
+# AWS-based proxies (EC2 instances with Squid)
+54.210.100.50:3128
+34.220.100.75:8080
+
+# ============================================================================
+# Notes:
+# ============================================================================
+# 1. Test each proxy before adding to ensure it's working
+# 2. Use weighted rotation for mixed quality proxies
+# 3. Monitor proxy health metrics in the dashboard
+# 4. Replace rate-limited proxies automatically
+# 5. Keep at least 10+ proxies for reliable testing
+# ============================================================================
