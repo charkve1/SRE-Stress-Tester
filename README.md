@@ -56,7 +56,7 @@ The framework includes a fully integrated, real-time observability dashboard for
 
 ---
 
-# 🔬 Advanced SRE Load Testing Engine - Professional Guide
+# Guide
 
 ## Enterprise Infrastructure Testing with Adaptive Intelligence
 
