@@ -58,14 +58,22 @@ The framework includes a fully integrated, real-time observability dashboard for
 
 ## Installation & Usage
 
-**1. Clone the repository and navigate to the directory:**
+
 ```bash
+1. Clone the repository and navigate to the directory
+
 git clone [https://github.com/charkve1/SRE-Stress-Tester.git](https://github.com/charkve1/SRE-Stress-Tester.git)
 cd SRE-Stress-Tester
 
+2. Install required dependencies:
+
 pip install -r requirements_advanced.txt
 
-python "proxy checker/proxy_scraper_checker.py" (optıonal)
+3. (Optional) Scrape and verify proxies:
+
+python "proxy checker/proxy_scraper_checker.py" 
+
+4. Launch the SRE Observability Dashboard:
 
 python -m streamlit run advanced_sre_test.py
 
