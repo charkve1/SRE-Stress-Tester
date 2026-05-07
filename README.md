@@ -1,4 +1,4 @@
-# 🔬 Advanced SRE Load Testing & Observability Engine
+# Advanced SRE Load Testing & Observability Engine
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28.0-FF4B4B?style=for-the-badge&logo=streamlit)
@@ -21,7 +21,7 @@ This repository contains a professional-grade **System Reliability Engineering (
 
 ---
 
-## 🧠 System Architecture & Core Modules
+## System Architecture & Core Modules
 
 This engine bypasses standard synthetic traffic filters by dynamically mimicking real-world browser behavior and utilizing advanced concurrency controls.
 
@@ -47,7 +47,7 @@ A robust sub-system (`proxy_scraper_checker.py`) for geo-distributed load simula
 
 ---
 
-## 📊 Real-Time Observability (Streamlit)
+## Real-Time Observability (Streamlit)
 
 The framework includes a fully integrated, real-time observability dashboard for live telemetry visualization:
 * **Live Latency Timeline:** Granular tracking of successful (2xx), blocked (403/429), and failed (5xx) requests.
@@ -56,7 +56,7 @@ The framework includes a fully integrated, real-time observability dashboard for
 
 ---
 
-## 🛠️ Installation & Usage
+## Installation & Usage
 
 **1. Clone the repository and navigate to the directory:**
 ```bash
@@ -67,14 +67,5 @@ pip install -r requirements_advanced.txt
 
 python "proxy checker/proxy_scraper_checker.py" (optıonal)
 
-python -m streamlit run advanced_sre_test.py (launch)
+python -m streamlit run advanced_sre_test.py
 
-(Configure testing parameters, concurrency limits, and upload your proxy list directly via the graphical interface)
-
-📚 Academic & Professional Use Cases
-
-Capacity Planning: Establishing baseline performance metrics before marketing campaigns.
-
-CDN & Edge Optimization: Calculating cache hit ratios and origin offload percentages under heavy load.
-
-Rate Limiter Calibration: Finding the exact threshold to drop malicious traffic without impacting legitimate human users.
